@@ -42,6 +42,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav {
@@ -122,7 +123,8 @@ ul {
 }
 
 .main-section-container {
-  padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
   background: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient(
       to bottom,
@@ -192,6 +194,28 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.adv-icons-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 0 0 0;
+  padding-bottom: 8px;
+}
+
+.adv-icons-ithem {
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
 }
 
 .advantages-list {
@@ -340,8 +364,12 @@ ul {
 /** footer **/
 
 .footer-section {
+}
+
+.footer-wraper {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-foot {
@@ -368,3 +396,6 @@ ul {
   margin: 0;
   max-width: 264px;
 }
+
+/* «C6» Для всіх ефектів ховера і фокуса (колір, фон, тінь) зроблені переходи. 
+Час - 250ms, функція розподілу часу - cubic-bezier(0.4, 0, 0.2, 1). */
