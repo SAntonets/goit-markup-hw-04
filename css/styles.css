@@ -210,26 +210,15 @@ ul {
   overflow: hidden;
 }
 
-.adv-icons-list {
-  display: flex;
-  gap: 24px;
-  margin: 0 0 0 0;
-  padding-bottom: 8px;
-}
-
 .adv-icons-ithem {
-  margin: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  width: calc((100% - 72px) / 4);
+  margin: 0 0 8px 0;
+  padding: 24px 100px;
+  width: 100%;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background-color: #f4f4fd;
   display: flex;
   justify-content: center;
-}
-
-.icons {
 }
 
 .advantages-list {
