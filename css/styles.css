@@ -85,14 +85,15 @@ ul {
   padding-bottom: 20px;
   padding: 24px 0;
   position: relative;
-}
-
-.current {
-  color: #404bbf;
+  display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current::after {
+.page-menu-list:hover {
+  color: #404bbf;
+}
+
+.page-menu-list:hover:after {
   content: "";
   position: absolute;
   left: 0;
@@ -428,7 +429,7 @@ ul {
   margin: 0;
 }
 
-.port-img-wrapper:hover .pop-up-txt {
+.portfolio-ithem:hover .pop-up-txt {
   transform: translateY(0%);
 }
 
